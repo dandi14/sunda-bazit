@@ -99,7 +99,7 @@ def loginSC():
 	os.system('xdg-open https://tatawirdat.blogspot.com')
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="anak" and password =="binjai":
+	if username =="bagongk" and password =="anying":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
@@ -200,7 +200,8 @@ def menu():
 	print "\x1b[32;1m2.\x1b[0;1m Lihat daftar grup               "
 	print "\x1b[32;1m3.\x1b[0;1m Informasi akun               "
 	print "\x1b[32;1m4.\x1b[0;1m Yahoo clone               "
-	print "\n\x1b[32;1m0.\x1b[0;1m Logout            "
+	print "\n\x1b[32;1m0.\x1b[0;1m Logout "
+	print "\n\x1b[32;1m0.\x1b[0;1m target
 	pilih()
 
 
