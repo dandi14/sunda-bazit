@@ -1,24 +1,19 @@
-# spider-fb
-Perintah :
+# callv3
+Spam Call Update Version 4.0
 
-$pkg update &amp;&amp; pkg upgrade  
-$pkg install python2  
-$pkg install git  
-$git clone https://github.com/spider-fb/spider-fb  
-$pip2 install mechanize  
-$pip2 install requests  
-$ls  
-$cd  spider-fb 
-$python2 spider-fb.py  
-Usernam: anak
 
-Pass: binjai
+#cara install
 
-Download lisensi Scriptnya disini : https://tatawirdat.blogspot.com  
+$pkg update && pkg upgrade
 
-Don't forget to subscribe to the YouTube channel, please
+$pkg install git python
 
-https://www.youtube.com/channel/UCP0-8OzsHywqN461bVFjUbQ
+$pkg install curl clang
 
-Cara agar terhindar dari cekpoint: 
-https://www.mediafire.com/download/608fmflx9imf2d4
+$pip install mechanize requests bs4
+
+$git clone https://github.com/BangDanz/callv3
+
+$cd callv3
+
+$python call.py
